@@ -1,0 +1,161 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "One Dark italic",
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "keyword",
+          "markup.underline.link",
+          "storage.modifier",
+          "storage.type",
+          "string.url",
+          "variable.language.super",
+          "variable.language.this"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "One Dark italic reset",
+        "scope": [
+          "keyword.operator",
+          "keyword.other.type",
+          "storage.modifier.import",
+          "storage.modifier.package",
+          "storage.type.built-in",
+          "storage.type.function.arrow",
+          "storage.type.generic",
+          "storage.type.java",
+          "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#1497ee6c",
+    "editor.wordHighlightBackground": "#1497ee6c"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "window.customTitleBarVisibility": "windowed",
+  "zenMode.centerLayout": false,
+  "window.zoomPerWindow": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.startupEditor": "none",
+  "search.showLineNumbers": true,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideActivityBar": false,
+  "editor.cursorBlinking": "solid",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "debug.onTaskErrors": "debugAnyway",
+  "workbench.reduceMotion": "on",
+  "git.openRepositoryInParentFolders": "never",
+  "window.titleBarStyle": "custom",
+  "editor.fontSize": 20,
+  "editor.inlineSuggest.showToolbar": "never",
+  "editor.tabSize": 2,
+  "workbench.layoutControl.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.title": "XD",
+  "workbench.editor.showTabs": "single",
+  "window.restoreFullscreen": true,
+  "editor.wordWrap": "on",
+  "terminal.integrated.tabs.enabled": true,
+  "editor.autoClosingQuotes": "always",
+  "editor.autoSurround": "brackets",
+  "zenMode.showTabs": "single",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "window.menuBarVisibility": "compact",
+  "svelte.plugin.css.colorPresentations.enable": false,
+  "svelte.ask-to-enable-ts-plugin": false,
+  "svelte.plugin.svelte.completions.enable": false,
+  "terminal.integrated.fontSize": 28,
+  "notebook.experimental.generate": false,
+  "todohighlight.keywords": ["NOTE:"],
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.mode": "manual",
+  "git.blame.editorDecoration.enabled": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "workbench.externalBrowser": "firefox",
+  "editor.inlineSuggest.enabled": false,
+  "telemetry.feedback.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "chat.commandCenter.enabled": false,
+  "workbench.activityBar.location": "top",
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+
+  "kilo-code.allowedCommands": ["git log", "git diff", "git show"],
+  "kilo-code.deniedCommands": [],
+  "chat.disableAIFeatures": true,
+  "extensions.ignoreRecommendations": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "python.analysis.typeCheckingMode": "strict",
+  "files.trimTrailingWhitespace": true,
+  "window.zoomLevel": -1,
+  "workbench.colorTheme": "Gnome Minimal (Dark)"
+}
